@@ -7,7 +7,7 @@ import { Button } from "@/components/ui/button"
 
 export default function HeroSection() {
   // This would be customizable by the site owner
-  const [backgroundImage, setBackgroundImage] = useState("/placeholder.svg?height=800&width=1600")
+  // const [backgroundImage, setBackgroundImage] = useState("/placeholder.svg?height=800&width=1600")
 
   return (
     <section className="relative h-[80vh] min-h-[600px] w-full overflow-hidden">
@@ -26,18 +26,18 @@ export default function HeroSection() {
 
 
       {/* Content */}
-      <div className="relative h-full flex items-center">
+      <div className="relative h-full">
         <div className="container px-4 md:px-6">
           <div className="max-w-2xl space-y-6">
             {/* Logo would be customizable */}
-            <div className="bg-white/90 p-4 rounded-lg inline-block mb-4">
+            <div className="/90 p-4 rounded-lg inline-block mb-4 flex items-center">
               <Image
-                src="/logo.jpeg"
+                src="/logo6.jpeg"
                 alt="Spinach Logo"
                 width={200}
                 height={80}
                 className="h-16 w-auto"
-                style={{ width: "110px", height: "60px" }}
+                style={{ width: "140px", height: "150px" }}
               />
             </div>
 

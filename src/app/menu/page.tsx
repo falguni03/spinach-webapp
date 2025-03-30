@@ -1,6 +1,6 @@
 import { Leaf, Check, X } from "lucide-react"
 import { Button } from "@/components/ui/button"
-import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card"
+import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 import { Alert, AlertDescription } from "@/components/ui/alert"
 
 export default function MenuPage() {
@@ -13,8 +13,8 @@ export default function MenuPage() {
             <h1 className="text-4xl font-bold tracking-tight mb-4">Our Menu</h1>
             <div className="w-20 h-1 bg-green-500 mb-6"></div>
             <p className="max-w-3xl text-muted-foreground mb-8">
-              All our meals are 100% vegetarian, prepared with fresh ingredients and delivered in eco-friendly
-              packaging.
+              All our meals are 100% vegetarian, prepared with fresh ingredients. 
+              {/* and delivered in eco-friendly packaging. */}
             </p>
             <div className="flex items-center justify-center mb-8 bg-green-100 px-4 py-2 rounded-full">
               <Leaf className="h-5 w-5 text-green-600 mr-2" />
@@ -60,7 +60,7 @@ export default function MenuPage() {
             <Card className="flex flex-col h-full">
               <CardHeader>
                 <CardTitle className="text-xl">Tini Tiny Tummy Meal</CardTitle>
-                <CardDescription className="mt-2">2 chapati, 1 sabji</CardDescription>
+                <CardDescription className="mt-2">2 chapati, 1 sabji / Rice bowl</CardDescription>
               </CardHeader>
               <CardContent className="flex-grow">
                 <ul className="space-y-4">

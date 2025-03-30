@@ -1,6 +1,6 @@
 import Link from "next/link"
 import Image from "next/image"
-import { Facebook, Instagram, Twitter } from "lucide-react"
+import {Instagram} from "lucide-react"
 
 export default function Footer() {
   return (
@@ -9,14 +9,14 @@ export default function Footer() {
         <div className="grid grid-cols-1 gap-8 md:grid-cols-4">
           <div className="space-y-4">
             <Link href="#" className="inline-block">
-              <Image
+              {/* <Image
                 src="/logo.jpeg"
                 alt="Spinach Logo"
                 width={120}
                 height={40}
                 className="h-8 w-auto"
                 style={{ width: "110px", height: "60px" }}
-              />
+              /> */}
             </Link>
             <p className="text-green-200 max-w-xs">
               Nutritious, delicious, and budget-friendly tiffin service for students and professionals.
@@ -51,9 +51,9 @@ export default function Footer() {
                 </Link>
               </li>
               <li>
-                <Link href="/about" className="text-green-200 hover:text-white">
+                {/* <Link href="/about" className="text-green-200 hover:text-white">
                   About Us
-                </Link>
+                </Link> */}
               </li>
               <li>
                 <Link href="/contact" className="text-green-200 hover:text-white">
@@ -92,7 +92,7 @@ export default function Footer() {
           <div>
             <h3 className="text-lg font-medium mb-4">Contact Us</h3>
             <ul className="space-y-2 text-green-200">
-              <li>Phone: +91 8698346292 / +91 7666116202</li>
+              <li>Phone: +91 9850580979</li>
               <li>Email: spinachfoods@gmail.com</li>
             </ul>
           </div>

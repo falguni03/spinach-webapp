@@ -12,7 +12,7 @@ export default function ContactPage() {
             <h1 className="text-4xl font-bold tracking-tight mb-4">Contact Us</h1>
             <div className="w-20 h-1 bg-green-500 mb-6"></div>
             <p className="max-w-3xl text-muted-foreground">
-              Have questions or ready to order? Get in touch with us today and we'll be happy to assist you.
+              Have questions or ready to order? Get in touch with us today and we&apos;ll be happy to assist you.
             </p>
           </div>
         </div>
@@ -28,10 +28,10 @@ export default function ContactPage() {
                   <Phone className="h-6 w-6 text-green-600" />
                 </div>
                 <h3 className="text-xl font-medium mb-2">Call Us</h3>
-                <p className="text-muted-foreground mb-4">We're available 7 days a week</p>
-                <p className="font-medium text-green-600">+91 8698346292</p>
+                <p className="text-muted-foreground mb-4">We&apos;re available 7 days a week</p>
+                <p className="font-medium text-green-600">+91 9850580979</p>
                 <Button className="mt-4 bg-green-600 hover:bg-green-700">
-                  <a href="tel:+918698346292">Call Now</a>
+                  <a href="tel:+919850580979">Call Now</a>
                 </Button>
               </CardContent>
             </Card>
@@ -93,7 +93,7 @@ export default function ContactPage() {
                   <Phone className="h-5 w-5 text-green-600 mr-3 mt-1" />
                   <div>
                     <h3 className="font-medium">Phone</h3>
-                    <p className="text-muted-foreground">+91 8698346292</p>
+                    <p className="text-muted-foreground">+91 9850580979</p>
                   </div>
                 </div>
 
@@ -116,7 +116,7 @@ export default function ContactPage() {
 
               <div className="mt-8">
                 <Button size="lg" className="bg-green-600 hover:bg-green-700">
-                  <a href="tel:+918698346292">Call Now</a>
+                  <a href="tel:+919850580979">Call Now</a>
                 </Button>
               </div>
             </div>
@@ -147,7 +147,7 @@ export default function ContactPage() {
             <h2 className="text-3xl font-bold tracking-tight mb-4">Business Hours</h2>
             <div className="w-20 h-1 bg-green-500 mb-6"></div>
             <p className="max-w-3xl text-muted-foreground">
-              We're available to serve you throughout the week. Here's when you can reach us.
+              We're available to serve you throughout the week. Here&apos;s when you can reach us.
             </p>
           </div>
 
@@ -195,6 +195,11 @@ export default function ContactPage() {
 
           <div className="max-w-3xl mx-auto space-y-6">
             {[
+               {
+                question: "What if I need to skip a day?",
+                answer:
+                  "For subscription plans, you can pause or skip deliveries by notifying us at least 24 hours in advance.",
+              },
               {
                 question: "How do I place an order?",
                 answer:
@@ -205,21 +210,17 @@ export default function ContactPage() {
                 answer:
                   "We currently deliver to most areas within the city. Please contact us with your specific location to confirm if we deliver to your area.",
               },
-              {
-                question: "Can I customize my meals?",
-                answer:
-                  "Yes, we offer meal customization options, especially for customers with dietary restrictions or preferences. Please let us know your requirements when placing an order.",
-              },
+              // {
+              //   question: "Can I customize my meals?",
+              //   answer:
+              //     "Yes, we offer meal customization options, especially for customers with dietary restrictions or preferences. Please let us know your requirements when placing an order.",
+              // },
               {
                 question: "How is the food packaged?",
                 answer:
                   "We use food-grade disposable tiffins for all our meals. The packaging is designed to keep your food fresh and warm until delivery.",
               },
-              {
-                question: "What if I need to skip a day?",
-                answer:
-                  "For subscription plans, you can pause or skip deliveries by notifying us at least 24 hours in advance.",
-              },
+             
             ].map((item, index) => (
               <div key={index} className="bg-green-50 rounded-lg p-6">
                 <h3 className="text-xl font-bold mb-2">{item.question}</h3>
@@ -230,10 +231,10 @@ export default function ContactPage() {
 
           <div className="mt-12 text-center">
             <p className="text-muted-foreground mb-4">
-              Don't see your question here? Feel free to contact us directly.
+            Don&apos;t see your question here? Feel free to contact us directly.
             </p>
             <Button asChild className="bg-green-600 hover:bg-green-700">
-              <a href="tel:+919876543210">Call Now</a>
+              <a href="tel:+919850580979">Call Now</a>
             </Button>
           </div>
         </div>

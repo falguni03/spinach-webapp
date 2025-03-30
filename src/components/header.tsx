@@ -13,7 +13,7 @@ export default function Header() {
   const navLinks = [
     { name: "Home", href: "/" },
     { name: "Menu", href: "/menu" },
-    { name: "About", href: "/about" },
+    // { name: "About", href: "/about" },
     { name: "Contact", href: "/contact" },
   ]
 
@@ -22,11 +22,11 @@ export default function Header() {
       <div className="container flex h-16 items-center justify-between">
         <Link href="/" className="flex items-center space-x-2">
           <Image
-            src="/logo.jpeg"
+            src="/small.jpeg"
             alt="Spinach Logo"
             width={180}
             height={120}
-            style={{ width: "110px", height: "60px" }}
+            style={{ width: "70px", height: "60px" }}
             className="h-8 w-auto"
           />
         </Link>

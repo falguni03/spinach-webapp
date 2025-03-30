@@ -27,18 +27,19 @@ export default function Home() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
             <div>
               <Image
-                src="/placeholder.svg?height=400&width=600"
+                src="/tiffin1.jpeg"
                 alt="Fresh ingredients"
                 width={600}
                 height={400}
-                className="rounded-lg shadow-md"
+                className="rounded-lg shadow-md mx-auto"
+                style={{ width: "450px", height: "460px" }}
               />
             </div>
             <div className="space-y-4">
               <h3 className="text-2xl font-bold">Our Mission</h3>
               <p className="text-muted-foreground">
                 We believe everyone deserves access to nutritious, home-style meals regardless of their busy schedule.
-                Our mission is to provide convenient, healthy, and affordable meal options that don't compromise on
+                Our mission is to provide convenient, healthy, and affordable meal options that don&#39;t compromise on
                 taste or quality.
               </p>
               <h3 className="text-2xl font-bold">Our Values</h3>
@@ -134,7 +135,7 @@ export default function Home() {
               </div>
               <h3 className="text-xl font-medium mb-2">Call Us</h3>
               <p className="text-muted-foreground mb-4">We're available 7 days a week</p>
-              <Button className="bg-green-600 hover:bg-green-700">Call Now</Button>
+              <Button className="bg-green-600 hover:bg-green-700"><a href="tel:+919850580979">Call Now</a></Button>
             </div>
 
             <div className="flex flex-col items-center p-6 bg-green-50 rounded-lg shadow-sm">
