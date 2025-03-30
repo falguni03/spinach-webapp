@@ -134,7 +134,7 @@ export default function Home() {
                 </svg>
               </div>
               <h3 className="text-xl font-medium mb-2">Call Us</h3>
-              <p className="text-muted-foreground mb-4">We're available 7 days a week</p>
+              <p className="text-muted-foreground mb-4">We&apos;re available 7 days a week</p>
               <Button className="bg-green-600 hover:bg-green-700"><a href="tel:+919850580979">Call Now</a></Button>
             </div>
 
@@ -156,7 +156,7 @@ export default function Home() {
                 </svg>
               </div>
               <h3 className="text-xl font-medium mb-2">Email Us</h3>
-              <p className="text-muted-foreground mb-4">We'll respond within 24 hours</p>
+              <p className="text-muted-foreground mb-4">We&apos;ll respond within 24 hours</p>
               <p className="font-medium text-green-600">spinachfoods@gmail.com</p>
             </div>
 

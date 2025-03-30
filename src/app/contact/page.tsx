@@ -42,7 +42,7 @@ export default function ContactPage() {
                   <Mail className="h-6 w-6 text-green-600" />
                 </div>
                 <h3 className="text-xl font-medium mb-2">Email Us</h3>
-                <p className="text-muted-foreground mb-4">We'll respond within 24 hours</p>
+                <p className="text-muted-foreground mb-4">We&apos;ll respond within 24 hours</p>
                 <p className="font-medium text-green-600">spinachfoods@gmail.com</p>
                 <Button className="mt-4 bg-green-600 hover:bg-green-700">
                   <a href="mailto:spinachfoods@gmail.com">Send Email</a>
@@ -71,7 +71,7 @@ export default function ContactPage() {
             <div>
               {/* <h2 className="text-3xl font-bold tracking-tight mb-6">Our Location</h2> */}
               <p className="text-muted-foreground mb-8">
-                {/* Visit our kitchen or reach out to us for any inquiries. We're conveniently located and ready to serve
+                {/* Visit our kitchen or reach out to us for any inquiries. We&apos;re conveniently located and ready to serve
                 you with the best tiffin meals in town. */}
               </p>
 
@@ -147,7 +147,7 @@ export default function ContactPage() {
             <h2 className="text-3xl font-bold tracking-tight mb-4">Business Hours</h2>
             <div className="w-20 h-1 bg-green-500 mb-6"></div>
             <p className="max-w-3xl text-muted-foreground">
-              We're available to serve you throughout the week. Here&apos;s when you can reach us.
+              We&apos;re available to serve you throughout the week. Here&apos;s when you can reach us.
             </p>
           </div>
 
