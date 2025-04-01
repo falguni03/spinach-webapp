@@ -60,7 +60,7 @@ export default function MenuPage() {
             <Card className="flex flex-col h-full">
               <CardHeader>
                 <CardTitle className="text-xl">Tini Tiny Tummy Meal</CardTitle>
-                <CardDescription className="mt-2">2 chapati, 1 sabji / Rice Bowl</CardDescription>
+                <CardDescription className="mt-2">2 chapati, 1 sabji / rice bowl</CardDescription>
               </CardHeader>
               <CardContent className="flex-grow">
                 <ul className="space-y-4">
