@@ -13,8 +13,8 @@ export default function MenuPage() {
             <h1 className="text-4xl font-bold tracking-tight mb-4">Our Menu</h1>
             <div className="w-20 h-1 bg-green-500 mb-6"></div>
             <p className="max-w-3xl text-muted-foreground mb-8">
-              All our meals are 100% vegetarian, prepared with fresh ingredients. 
-              {/* and delivered in eco-friendly packaging. */}
+              All our meals are 100% vegetarian, prepared with fresh ingredients and delivered in eco-friendly
+              packaging.
             </p>
             <div className="flex items-center justify-center mb-8 bg-green-100 px-4 py-2 rounded-full">
               <Leaf className="h-5 w-5 text-green-600 mr-2" />
@@ -55,12 +55,51 @@ export default function MenuPage() {
             </p>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
             {/* Tini Tiny Tummy Meal */}
             <Card className="flex flex-col h-full">
               <CardHeader>
                 <CardTitle className="text-xl">Tini Tiny Tummy Meal</CardTitle>
-                <CardDescription className="mt-2">2 chapati, 1 sabji / Rice bowl</CardDescription>
+                <CardDescription className="mt-2">2 chapati, 1 sabji / Rice Bowl</CardDescription>
+              </CardHeader>
+              <CardContent className="flex-grow">
+                <ul className="space-y-4">
+                  <li className="flex justify-between items-center pb-2 border-b border-gray-100">
+                    <div>
+                      <span className="font-medium">10 days</span>
+                      <p className="text-sm text-muted-foreground">₹70 per meal</p>
+                    </div>
+                    <span className="text-lg font-bold">₹700</span>
+                  </li>
+                  <li className="flex justify-between items-center pb-2 border-b border-gray-100">
+                    <div>
+                      <span className="font-medium">20 days</span>
+                      <p className="text-sm text-muted-foreground">₹65 per meal</p>
+                    </div>
+                    <span className="text-lg font-bold">₹1300</span>
+                  </li>
+                  <li className="flex justify-between items-center">
+                    <div>
+                      <span className="font-medium">25 days</span>
+                      <p className="text-sm text-muted-foreground">₹60 per meal</p>
+                    </div>
+                    <span className="text-lg font-bold">₹1500</span>
+                  </li>
+                </ul>
+              </CardContent>
+              {/* <CardFooter>
+                <Button className="w-full bg-green-600 hover:bg-green-700">Select Plan</Button>
+              </CardFooter> */}
+            </Card>
+
+            {/* Tini Tiny Tummy Meal 2.0 */}
+            <Card className="flex flex-col h-full">
+              <CardHeader>
+                <CardTitle className="text-xl">Tini Tiny Tummy Meal 2.0</CardTitle>
+                <CardDescription className="mt-2">
+                  4 days - 2 chapati and sabji
+                  <br />2 days - rice bowl
+                </CardDescription>
               </CardHeader>
               <CardContent className="flex-grow">
                 <ul className="space-y-4">
