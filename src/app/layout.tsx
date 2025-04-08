@@ -31,8 +31,8 @@ export default function RootLayout({
             <WhatsAppButton />
           </div>
         </ThemeProvider>
+        <Analytics />
       </body>
     </html>
   )
 }
-
